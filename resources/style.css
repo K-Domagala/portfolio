@@ -85,3 +85,7 @@ details img, article{
 #skillsContainer i{
     margin:5px;
 }
+
+main li{
+    margin: 3px;
+}
