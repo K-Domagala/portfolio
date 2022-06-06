@@ -51,13 +51,22 @@ nav li{
 }
 
 @media only screen and (max-width: 600px){
-    main{
+    #aboutMeContainer{
         flex-direction: column;
     }
 }
 
-main{
+/* main{
     display: flex;
+} */
+
+#aboutMeContainer{
+    display:flex;
+}
+
+.projectImg{
+    width: 100%;
+    height: auto;
 }
 
 #profile{
@@ -67,4 +76,8 @@ main{
     float:right;
     border-radius: 100px;
     margin: 5px;
+}
+
+details img, article{
+    margin: 10px;
 }

@@ -19,13 +19,27 @@
         </nav>
     </header>
     <main>
-        <!-- <img id="profile" src="resources/images/profile-picture.jpg"> -->
         <div id="aboutMeContainer">
-            <h2 id="aboutMe">About me</h2>
-            <p>Hi, I'm Krystian Domagala and I am an aspiring Full-Stack engineer. I am currently taking the Full-stack engineering course at codecademy as part of my IT career change traineeship program.</p>
-            <p>So far, I was able to quickly advance through the first stages of the traineeship program by using all the skills I have aquired from studying my maths degree.</p>
-            <p>Not going to lie, I am just amazing at everything I do, especially making up some text just to fill out a page while I test it's formatting, try out different styles and check it's compatability with mobile devices.</p>
+            <div id="aboutMeContent">
+                <h2 id="aboutMe">About me</h2>
+                <p>Hi, I'm Krystian Domagala and I am an aspiring Full-Stack engineer. I am currently taking the Full-stack engineering course at codecademy as part of my IT career change traineeship program.</p>
+                <p>So far, I was able to quickly advance through the first stages of the traineeship program by using all the skills I have aquired from studying my maths degree.</p>
+                <p>Not going to lie, I am just amazing at everything I do, especially making up some text just to fill out a page while I test it's formatting, try out different styles and check it's compatability with mobile devices.</p>
+            </div>
+            <img id="profile" src="resources/images/profile-picture.jpg">
         </div>
-        <img id="profile" src="resources/images/profile-picture.jpg">
+        <div id="projectsContainer">
+            <h2 id="projects">Projects</h2>
+            <details>
+                <summary>This portfolio website</summary>
+                <img class='projectImg' src="resources/images/portfolio-website.png">
+                <article>This is one of the projects that I am most proud of; paying a lot of attention to small details such as ARIA and mobile device compatability.</article>
+            </details><br>
+            <details>
+                <summary>JCB project</summary>
+                <img class="projectImg" src="resources/images/jcb-project.png">
+                <article>This is one of the projects i have done at university. I had to invent an algorithm to lower the amount of partitions within a database. This was a very primative program that was inefficient, but it was the very first useful program i have ever written with very little knowledge of Java.</article>
+            </details>
+        </div>
     </main>
 </body>
