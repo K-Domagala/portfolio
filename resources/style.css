@@ -81,3 +81,7 @@ nav li{
 details img, article{
     margin: 10px;
 }
+
+#skillsContainer i{
+    margin:5px;
+}
