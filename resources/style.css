@@ -51,19 +51,20 @@ nav li{
 }
 
 @media only screen and (max-width: 600px){
-    #profile{
-        float:none;
+    main{
+        flex-direction: column;
     }
 }
 
 main{
-    flex-wrap: wrap;
-    float: left;
+    display: flex;
 }
 
 #profile{
     display:flex;
     width:300px;
-    height:auto;
+    height:300px;
     float:right;
+    border-radius: 100px;
+    margin: 5px;
 }
